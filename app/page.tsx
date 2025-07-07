@@ -4,14 +4,14 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
-import { ModeToggle } from "@/components/mode-toggle"
+import { FastModeToggle } from "@/components/mode-toggle"
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center h-screen gap-8 px-4 text-center">
       <div className="flex flex-wrap items-center justify-center gap-4">
         <Button variant="outline">Button</Button>
-        <ModeToggle />
+        <FastModeToggle />
       </div>
 
       <div>
